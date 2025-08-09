@@ -12,11 +12,11 @@
 
 #define IS_DIGIT(C) (EQ((C) & 0xF0, 0x30) & LE((C) & 0x0F, 9))
 
-#define MAX_LEN 55
+#define MAX_LEN 66000
 #define BASE_BITS 63
 #define BASE ((__uint128_t)1 << BASE_BITS)
 #define MASK 0x7FFFFFFFFFFFFFFFULL
-#define MAX_INPUT_DIGITS 1002 
+#define MAX_INPUT_DIGITS 1000002
 
 // 128-bit functions (keep existing)
 int cmp(__uint128_t a, __uint128_t b);
@@ -36,5 +36,10 @@ void mul_bigint_10(__uint128_t *digits, __uint128_t *length) ;
 void parse_string_to_bigint(const char *str, __uint128_t *digits, __uint128_t *length);
 void print_bigint(__uint128_t *digits, __uint128_t length, const char *name);
 void bigint_multiply_ab();
+
+void add_with_carry_propagation(__uint128_t *result_digits, __uint128_t *result_length, __uint128_t value, __uint128_t start_pos);
+
+__uint128_t div_128_by_mod(__uint128_t *num, __uint128_t mod);
+__uint128_t div_bigint_10(__uint128_t *digits, __uint128_t *length);
 
 #endif
