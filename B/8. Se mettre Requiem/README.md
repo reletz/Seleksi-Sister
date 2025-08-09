@@ -2,6 +2,8 @@
 
 A high-performance big integer multiplication program written in C with strict language constraints.
 
+**Special thanks to *https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-theoretic-transforms/* for the prime number**
+
 ## Project Structure
 
 ```
@@ -149,3 +151,5 @@ This implementation strictly adheres to all problem constraints:
 - **Small numbers** (< 2^32): Near-instant
 - **Medium numbers** (< 10^1000): Sub-second using O(N²) algorithm
 - **Large numbers** (< 10^1000000): Sub-second using O(N log N) NTT
+
+Helped by Gemini and Claude :D
