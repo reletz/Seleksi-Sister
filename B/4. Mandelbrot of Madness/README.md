@@ -45,13 +45,13 @@ Jalankan program:
 ./bin/mandelbrot
 ```
 
-Output gambar akan tersimpan di folder `output/`.
+Output gambar ada di folder `output/`.
 
 ## Output
 
-- `output/mandelbrot_serial.png` : Hasil versi serial
-- `output/mandelbrot_parallel.png` : Hasil versi parallel CPU
-- `output/mandelbrot_cuda.png` : Hasil versi CUDA (jika tersedia)
+- `output/mandelbrot_serial.png`    : Hasil versi serial
+- `output/mandelbrot_parallel.png`  : Hasil versi parallel CPU
+- `output/mandelbrot_cuda.png`      : Hasil versi CUDA
 
 ## Benchmark
 
