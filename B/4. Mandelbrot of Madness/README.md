@@ -1,3 +1,4 @@
+<img width="3840" height="2160" alt="mandelbrot_serial" src="https://github.com/user-attachments/assets/01ae922b-00aa-41c4-84d0-3fd94449c4fa" />
 # Mandelbrot of Madness
 
 ## Overview
@@ -68,3 +69,11 @@ Output gambar ada di folder `output/`.
 - Gemini
 
 ## Screenshots
+Serial
+<img width="3840" height="2160" alt="mandelbrot_serial" src="https://github.com/user-attachments/assets/fc91ec55-c3a8-4c99-b144-a1b73ce9a004" />
+
+Parallel
+<img width="3840" height="2160" alt="mandelbrot_parallel" src="https://github.com/user-attachments/assets/afe09b5e-9e5b-4ae2-873e-0e8e841e4d46" />
+
+CUDA
+<img width="3840" height="2160" alt="mandelbrot_cuda" src="https://github.com/user-attachments/assets/0b06230f-e1af-4e67-96c6-27baa97ed2da" />
