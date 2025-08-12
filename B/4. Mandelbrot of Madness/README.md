@@ -1,4 +1,5 @@
 <img width="3840" height="2160" alt="mandelbrot_serial" src="https://github.com/user-attachments/assets/01ae922b-00aa-41c4-84d0-3fd94449c4fa" />
+
 # Mandelbrot of Madness
 
 ## Overview
