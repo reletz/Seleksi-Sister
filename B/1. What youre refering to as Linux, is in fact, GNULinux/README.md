@@ -6,7 +6,7 @@ Repository ini berisi semua deliverables yang diperlukan, termasuk tutorial leng
 ➡️ Baca tutorial lengkapnya di sini: [https://if-notes.naufarrel.tech/01.-Matkul/Semester-5/Seleksi-Lab---NixOS-Manual-(So-scary-laaa)](https://if-notes.naufarrel.tech/01.-Matkul/Semester-5/Seleksi-Lab---NixOS-Manual-(So-scary-laaa))
 
 🎥 Video Demonstrasi & Bukti Pengerjaan
-Berikut adalah tautan ke video-video yang menunjukkan fungsionalitas sistem yang telah aku bangun, sesuai dengan persyaratan seleksi: [Videonya](https://drive.google.com/file/d/1h-_o0_LLNwTDnsEyn1ohXmmNmwOXRoCC/view?usp=sharing)4
+Berikut adalah tautan ke video-video yang menunjukkan fungsionalitas sistem yang telah aku bangun, sesuai dengan persyaratan seleksi: [Videonya](https://drive.google.com/file/d/1h-_o0_LLNwTDnsEyn1ohXmmNmwOXRoCC/view?usp=sharing)
 
 Akses image: Image `.iso` bisa diakses di [sini](https://drive.google.com/file/d/1LW7FIIOQA4TzGT0ouU8YL2_n6BFmsty6/view?usp=sharing).
 
