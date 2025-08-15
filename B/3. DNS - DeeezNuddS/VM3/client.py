@@ -115,6 +115,6 @@ def main():
 
 if __name__ == "__main__":
     if subprocess.os.getuid() != 0:
-        print("Skrip ini perlu dijalankan dengan hak akses root. Coba jalankan dengan 'sudo python3 client_nmcli.py ...'")
+        print("Skrip ini perlu dijalankan dengan hak akses root. Coba jalankan dengan 'sudo python3 client.py ...'")
         sys.exit(1)
     main()
