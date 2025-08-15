@@ -12,7 +12,7 @@ Download di sini: https://www.debian.org/download
 
 ## Langkah-Langkah Setup
 
-> **Asumsi:** Semua dependensi sudah terinstal di setiap VM sesuai daftar di bawah. Jaringan VirtualBox diatur ke Host-Only Adapter untuk semua VM.
+> **Asumsi:** Semua dependensi sudah terinstal di setiap VM sesuai daftar di bawah. Jaringan VirtualBox diatur ke Internal Network untuk semua VM.
 
 ### VM 1: DNS & DHCP Server (IP: 192.168.55.1)
 
