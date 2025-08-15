@@ -1,0 +1,9 @@
+//
+// Do any local configuration here
+//
+
+zone "ngantuk.tech" {
+    type master;
+    file "/etc/bind/db.ngantuk.tech";
+};
+
